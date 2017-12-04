@@ -1,6 +1,6 @@
 {
   "name": "stateful-dead",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small module for storing and announcing your app's state changes, with one dependency (pubsub-js). Stop querying the DOM for your app's state; decouple your code chunks.",
   "main": "index.js",
   "scripts": {
