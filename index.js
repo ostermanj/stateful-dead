@@ -40,7 +40,7 @@ function _setState(key,value) {
     }
 }
 
-exports = {
+exports.stateModule = {
     logState: _logState,
     getState: _getState,
     getPreviousState: _getPreviousState,
