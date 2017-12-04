@@ -1,0 +1,26 @@
+{
+  "name": "stateful-dead",
+  "version": "0.1.0",
+  "description": "A small module for storing and announcing your app's state changes, with one dependency (pubsub-js). Stop querying the DOM for your app's state; decouple your code chunks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostermanj/stateful-dead.git"
+  },
+  "keywords": [
+    "state",
+    "stateful"
+  ],
+  "author": "John Osterman <ostermanj@gmail.com> (http://osterman.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ostermanj/stateful-dead/issues"
+  },
+  "homepage": "https://github.com/ostermanj/stateful-dead#readme",
+  "dependencies": {
+    "pubsub-js": "^1.5.7"
+  }
+}
