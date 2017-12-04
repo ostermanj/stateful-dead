@@ -22,5 +22,10 @@
   "homepage": "https://github.com/ostermanj/stateful-dead#readme",
   "dependencies": {
     "pubsub-js": "^1.5.7"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   }
 }
