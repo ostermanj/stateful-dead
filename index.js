@@ -1,3 +1,4 @@
+const PubSub = require('pubsub-js');
 const state = {};
 
 function _logState(){
