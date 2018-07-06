@@ -1,6 +1,20 @@
 const PubSub = require('pubsub-js');
 const state = {};
 
+//array.compare(otherArray) //HT https://stackoverflow.com/questions/6229197/how-to-know-if-two-arrays-have-the-same-values
+Array.prototype.compare = Array.prototype.compare || function(testArr) {
+    if (this.length != testArr.length) return false;
+    if (this.length === 0 && testArr.length === 0) return true;
+    console.log("in compare");
+    console.log(this);
+    for (var i = 0; i < testArr.length; i++) {
+        if (this[i] !== testArr[i]) {
+            return false;
+        }
+    }
+    return true;
+};
+
 function _logState(){
     console.log(state);
 }
