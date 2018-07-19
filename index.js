@@ -36,7 +36,7 @@ function _setState(key,value) {
     } else { // not the first time the property is being defined
     //If it's a string or array and values are the same, stateChanged=False+
         var stateChanged = true;
-        if (typeof value === 'string') {
+        if (typeof value === 'string' || typeof value === 'number') {
             stateChanged = (state[key][0] !== value);
         } else if (Array.isArray(value) && Array.isArray(state[key][0])) {
             stateChanged = !value.compare(state[key][0]);
